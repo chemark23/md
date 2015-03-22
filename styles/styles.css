@@ -1,0 +1,150 @@
+﻿body {
+    margin: 0;
+    background-color: #EAEAEA
+}
+
+p {
+    padding: 4px;
+    margin: 0px;
+    font-size: 20px
+}
+
+h1 {
+    color: rgba(20,80,180,0.8);
+    font-family: Arial;
+    padding: 4px;
+    margin: 0px;
+    text-align: center
+}
+
+h2 {
+    color: rgba(105,89,205,0.9);
+    padding: 10px;
+    margin: 0px;
+    text-align: center
+}
+
+h4  {
+    padding: 0px;
+    margin: 0px;
+    color: #000080;
+    font-family:cursive;
+    font-size: 16px;
+    text-align: center
+}
+
+#web {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    margin: auto
+}
+
+#header {
+    height: 100px;
+    background-image: url(../images/header.jpg)
+}
+
+#left_block {
+    font-size: 20px;
+    width: 200px;
+    height: 500px;
+    border-left: solid 1px #20aad0;
+    border-top: solid 1px #20aad0;
+    background-color: rgba(80,100,220,0.05);
+    float: left
+}
+
+#left_block ul {
+    margin: 0px;
+    padding: 10px;
+    list-style: none
+}
+
+#left_block ul li {
+    padding: 4px 0px;
+    margin: 6px 0px;
+    border: solid 1px #20aad0;
+    text-align: center
+}
+
+#left_block ul li:hover {
+    background: #ffeaea;
+}
+
+#left_block ul li a {
+    color: #207adf;
+    text-decoration: none
+}
+
+#center_block {
+    width: 796px;
+    height: 500px;
+    border-left: solid 1px #20aad0;
+    border-right: solid 1px #20aad0;
+    border-top: solid 1px #20aad0;
+    float: right
+}
+
+#center_text {
+    width: auto;
+    height: 280px;
+}
+
+.main_table {
+    margin: auto;
+    background-color: #daeaea;
+    border: solid 1px #af9f9f;
+}
+
+.main_table td {
+    border: solid 1px #b9c9f9;
+}
+
+.main_table th {
+    border: solid 1px #abafff;
+}
+
+#hide_text {
+    font-size: 16px;
+    color: #304090;
+    cursor: pointer;
+}
+
+#center_img {
+    width: auto;
+    height: auto;
+    border-top: solid 1px #6cacdc;
+    border-bottom: solid 1px #6cacdc;
+}
+
+#center_img img {
+    margin: 8px;
+    width: 180px;
+    height: 180px;
+}
+
+#footer {
+    width: 998px;
+    height: 30px;
+    border: solid 1px #20aad0;
+    background-color: rgba(30,144,255, 0.3);
+    color: #000080;
+    font-size: 16px;
+    font-family: cursive;
+    float: left
+}
+
+/*Добавочные классы*/
+
+.add_color_even {
+    background: #daeaea;
+}
+
+.add_color_odd {
+    background: #acccbc;
+}
+
+.add_svet {
+    background: #409060;
+}
